@@ -1,0 +1,193 @@
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+menu
+{
+    margin-left: -40px;
+}
+
+menu ul li
+{
+    list-style: none;
+    display: inline;
+}
+
+menu ul li.letter
+{
+    font-size: 40px;
+}
+
+menu ul li a
+{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+menu ul li a:hover
+{
+    transition: .3s;
+    background-color: hsl(0, 0%, 98%);;
+    color: hsl(0, 0%, 8%);
+}
+
+menu ul div
+{
+    width: 240px;
+    margin-left: 1200px;
+    margin-top: -28px;
+}
+
+menu ul div li a.reg
+{
+    
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: hsl(0, 0%, 98%);
+    
+}
+
+menu ul div li a.reg:hover
+{
+    transition: .3s;
+    background-color: hsl(0, 0%, 98%);;
+    color: hsl(0, 0%, 8%);
+}
+
+menu ul ul img.feature
+{
+   margin-right: 10px;
+}
+
+menu ul ul.Feature
+{
+    display: none;
+    position: absolute;
+    list-style: none;
+    left: 100px;
+    top: 65px;
+}
+
+menu ul ul.Feature li
+{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 35%);
+    display: block;
+    width: 120px;
+    padding: 5px 4px;
+    text-align: center;
+}
+
+menu ul li:hover > ul.Feature
+{
+    display: list-item;
+}
+
+menu ul ul.Company
+{
+    display: none;
+    position: absolute;
+    list-style: none;
+    left: 230px;
+    top: 65px;
+}
+
+menu ul ul.Company li
+{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 35%);
+    display: block;
+    width: 120px;
+    padding: 5px 4px;
+    text-align: center;
+}
+
+menu ul li:hover > ul.Company
+{
+    display: list-item;
+}
+
+aside
+{
+    width: 500px;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+p.p1
+{
+    font-size: 80px;
+    line-height: 2px;
+}
+
+aside div
+{
+    width: 500px;
+    margin-top: 100px;
+}
+
+p.p2
+{
+
+    color: hsl(0, 0%, 41%);
+    line-height: 6px;
+}
+
+nav
+{
+    width: 500px;
+    margin-left: 950px;
+    margin-top: -350px;
+}
+
+nav img
+{
+    /* margin-left: 850px; */
+    width: 400px;
+    height: 500px;
+}
+
+div
+{
+    
+    /* width: 250px; */
+    margin-top: -160px;
+    /* margin-left: 100px; */
+}
+
+div button
+{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    padding: 8px 16px;
+    border-radius: 10px 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+div button:hover
+{
+    transition: .3s;
+    color: hsl(0, 0%, 41%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+footer
+{
+    width: 800px;
+    position: relative;
+    top: 60px;
+    left: 110px;
+}
+
+footer img
+{
+    padding-left: 40px;
+}
